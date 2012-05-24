@@ -11,7 +11,7 @@ body{
 }
 
 #wrapper{
-	width: 100% /*790px;*/
+	width: 100%; /*790px;*/
 	margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ a:hover{
 	width: 66.552278%; /*526px;*/
 	float:left;
 	padding: 0px 3.8022814% 10px 1.9011407%;
-	margin-right: 12.658228% /*10px;*/
+	margin-right: 2%; /*10px, 12.658228*/
 	margin-bottom: 20px;
 	border-right: 1px solid #8B0000;
 }
@@ -96,7 +96,7 @@ p em{
 }
 
 #main_content img{
-		max-width: 100%
+		max-width: 100%;
 }
 
 .clearboth{
@@ -107,11 +107,7 @@ p em{
 #sidebar{
 	width:25.316456%; /*200px;*/
 	float:right;
-	/*padding-left: 10px;
-	padding-right: 10px;*/
-	
 	padding-bottom: 15px;
-	/*background-color: rgba(0, 0, 102, 0.25)*/
 }
 
 #sidebar li{
@@ -153,17 +149,76 @@ button.css3button {
 
 #news_paragraph_container{
 	-moz-column-count: 3;
-	-moz-column-gap: 2.5316456% /*20px;*/
+	-moz-column-gap: 2.5316456%; /*20px;*/
 }
 
 
+
+/*==============================TABLE INFO============================*/
+
+#table_container{
+	margin-left: 2%;
+	float:left;
+	width: 45%;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid; #191970;
+	margin-bottom: 15px;
+	width: 100%;	
+}
+
+td{
+	border: 1px solid #191970;
+	text-align:center;
+	padding: 0.3em;
+	font-size: 0.8125em;
+}
+
+th{
+	text-align:center;
+	background-color: rgba(0, 0, 102, 0.25);
+	color:#8B0000;
+	padding: 0.3em;
+	font-family: 'Days One', sans-serif;
+}
+
+/*=============================FORM INFO=============================*/
+
+#form_container{
+	float:right;
+	width: 45%;
+	margin-bottom: 20px;
+	margin-right: 2%;
+
+}
+
+input:focus{
+	background:rgba(0, 0, 102, 0.25);
+}
+
+form{
+	width:45%;
+	font-size: 0.8125em;
+	text-align:left;
+
+}
+
+
+
+/*=========================Footer===========*/
 
 footer{
 	color:white;
 	background-color: #191970;
 	padding: 3px;
 	margin-bottom: 10px;
+	clear:both;
+	width:100%;
 }
+
+
 
 
 
@@ -188,7 +243,7 @@ footer{
 
 #news_paragraph_container{
 	-moz-column-count: 2;
-	-moz-column-gap: 2.5316456% /*20px;*/
+	-moz-column-gap: 2.5316456%; /*20px;*/
 }
 
 
@@ -203,11 +258,11 @@ body{
 	background-image:none;
 }
 
-#masthead{ margin-bottom: 15px}
+#masthead{ margin-bottom: 15px;}
 
 #news_paragraph_container{
 	-moz-column-count: 1;
-	-moz-column-gap: 2.5316456% /*20px;*/
+	-moz-column-gap: 2.5316456%; /*20px;*/
 }
 
 #sidebar{
@@ -220,7 +275,7 @@ body{
 	width: 95%;
 	float:left;
 	padding: 0px 3.8022814% 10px 1.9011407%;
-	margin-right: 12.658228% /*10px;*/
+	margin-right: 12.658228%; /*10px;*/
 	margin-bottom: 20px;
 	border-right: none;
 }
@@ -250,4 +305,23 @@ nav ul li{
 
 nav ul{
 	margin-bottom: 15px;
+}
+
+#form_container{
+	float:none;
+	width:45%
+}
+
+form{
+	width:100%;
+}
+
+table{
+	width:100%;
+}
+
+#table_container{
+	float:none;
+	width:100%;
+	margin-left: 2%;
 }
