@@ -68,7 +68,7 @@
 	<div id="news_container">
 	<h2>News</h2>
 		<div id="news_paragraph_container">
-		<p>Fender’s acclaimed Pawn Shop instrument series welcomes three striking new instruments to the fold—including the family’s first bass guitar—and sees the return of an original member with a new look. It’s a sensational new generation of instruments that “never were but should have been”; once again drawing inspiration from the eccentric and innovative Fender creations of the mid-’60s-to-mid-’70s era.
+		<p><strong>Fender’s acclaimed Pawn Shop instrument series welcomes three striking new instruments to the fold</strong>—including the family’s first bass guitar—and sees the return of an original member with a new look. It’s a sensational new generation of instruments that “never were but should have been”; once again drawing inspiration from the eccentric and innovative Fender creations of the mid-’60s-to-mid-’70s era.
 
 		The new Pawn Shop instruments are the Offset Special and Jaguarillo guitars, and the Reverse Jaguar Bass. Further, the Mustang® Special carries on with a new Three-color Sunburst finish option.
 
@@ -78,10 +78,76 @@
 		</p>
 	</div>
 	</div>
+	<section>
+	<div id="table_container">
+	<h3>Membership Plans</h3>
+	<table>
+		<tr>
+			<th>Basic</th>
+			<th>Deluxe</th>
+			<th>Premium</th>
+		</tr>
+		<tr>
+			<td>Free</td>
+			<td>$5.99/yr.</td>
+			<td>$10.99/yr.</td>
+		</tr>
+		<tr>
+			<td>Receive Weekly Updates</td>
+			<td>Receive Weekly Updates and access to selected events.</td>
+			<td>Receive Weekly Updates, unlimited access to monthly events and more!</td>
+		
+	</table>
+	</div><!--end table container-->
 	
-	<footer>
+	<div id="form_container"><!--start form container-->
+	<h3>Let Us Know What You Think</h3>
+		<form method="get" action="mailto:info@example.com">
+		
+		<div>
+			<label for="name_first">First Name</label>
+			<input type="text" name="name_first" id="name_first"/>
+		</div>
+		<div>
+			<label for="name_last">Last Name</label>
+			<input type="text" name="name_last" id="name_last"/>
+		</div>
+		<div>
+			<label for="phone">Phone</label>
+			<input type="text" name="phone" id="phone"/>
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email"/>
+		</div>
+		<div>
+			<label for="what's this about">What's this about?</label>
+		</div>
+		<div>
+			<select name="what's this about" id="what's this about">
+				<option>General Inquiry</option>
+				<option>Suggestion</option>
+				<option>Press</option>
+				<option>Legal</option>
+			</select>
+		
+		<div>
+			<label for="message">Message</label>
+			<textarea rows="12" cols="40" name="message" id="message"></textarea>
+		</div>
+		
+		<div>
+			<button type="submit" name="submit" class="button">Send</button>
+		</div>
+	</form>
+	</div><!--end form container-->
+	</section>
+
+</div> <!--end wrapper-->
+
+
+<footer>
 		<p>All rights reserved. &copy; 2012</p>
-	</footer>
-</div> <!--end wrapper-->	
+</footer>
 </body>
 </html>
